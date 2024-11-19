@@ -1,0 +1,154 @@
+/* 
+responsive: 
+make a website for laptop, tablat(max-width:800-900), phone(max-width:600).
+and 6  type of make website.
+eyery screen have 2 types landscape and portrate mode. total is 6 .
+
+min-height:100%
+
+logo search on google png format.
+watermark remove website.
+
+by default text font size is 16px
+
+color-hunt
+
+gap use then display is flex.
+
+display:flex is apply on parent properties and child element is i tag, links, p tag, h1 tag then work all the child elements.
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: montserrat;
+}
+
+.page1 {
+    padding: 0 10%;
+    height: 100%;
+    width: 100%;
+    background-image: url(background01.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav {
+    padding-top: 2%;
+
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>.links>img {
+    height: 70px;
+    margin-right: 10%;
+}
+
+nav>.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+nav>.links>a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav>.links>a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.goto>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.goto>button {
+    padding: 10px 30px;
+    background-color: #ab886d;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.menu {
+    font-size: 20px;
+    display: none;
+    /* visibility: hidden; */
+}
+.page1_content{
+    margin-left: 20%;
+}
+.page1_content>h1 {
+    font-size: 70px;
+    font-weight: 720;
+}
+
+.page1_content>p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.page1_content > button {
+    padding: 10px 30px;
+    background-color: #ab886d;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.page1_sociallinks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
+}
+.page1_sociallinks i{
+    display: inline;
+    background-color: #ab886d;
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+}
+
+.page1_footer{
+    display: flex;
+    gap: 50px;
+    margin-left: 20%;
+}
+.page1_footer  p{
+    font-size: 18px;
+    font-weight: 520;
+}
+
