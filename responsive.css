@@ -1,0 +1,58 @@
+@media screen and (max-width:600px) {
+    .page1 {
+        padding: 4% 6%;
+    }
+
+    nav>.links>img {
+        height: 50px;
+    }
+
+    nav>.links>a {
+        display: none;
+    }
+
+    nav>.goto {
+        display: none;
+    }
+
+    .menu {
+        display: initial;
+    }
+
+    .page1_content>h1 {
+        font-size: 40px;
+        font-weight: 520;
+    }
+
+    .page1_content>p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .page1_content>button {
+        scale: 0.9;
+    }
+
+    .page1_sociallinks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        /* justify-content: center; */
+        align-items: center;
+
+    }
+
+    .page1_footer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20%;
+    }
+
+    .page1_footer p {
+        font-size: 14px;
+        font-weight: 420;
+    }
+
+}
