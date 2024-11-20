@@ -17,6 +17,7 @@ gap use then display is flex.
 
 display:flex is apply on parent properties and child element is i tag, links, p tag, h1 tag then work all the child elements.
 
+
 */
 
 * {
@@ -152,3 +153,106 @@ nav>.links>a {
     font-weight: 520;
 }
 
+.page2_heading{
+
+/* text-align: center; */
+padding: 0 10%;
+font-size: 60px;
+font-weight: 900;
+padding-top: 5%;
+/* padding-bottom: 3%; */
+}
+
+.page2{
+    padding: 0 10%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.page2 div{
+    width: 25%;
+    /* background-color: blueviolet; */
+}
+.page2 div  img{
+    width: 100%;
+}
+
+.page3{
+     padding: 0 10%;
+     width: 100%;
+     height: 600px;
+     background-color: burlywood;
+
+}
+.page3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.page3_image{
+    width: 40%;
+    height: 550px;
+}
+
+.page3_image > img{
+    width: 100%;
+    height: 550px;
+}
+
+.page3_text{
+    width: 57%;
+    height: 550px;
+    background-color: antiquewhite;
+    padding-right: 35px;
+}
+
+.page3_text >h1{
+   font-size: 50px;
+   font-weight: 900;
+}
+.page3_text >h5{
+    padding-top: 10px;
+    padding-bottom: 90px;
+ }
+
+.page3_text >p{
+    padding-top: 40px;
+    padding-bottom: 10px;
+ }
+
+ .page3_box{
+     height: 40%;
+     width: 51%;
+     /* background-color: blueviolet; */
+     border:6px solid #cc9405;
+     position: absolute;
+     left: 38%;
+     margin-top: 10%;
+ }
+
+ .page4{
+   
+    padding-left: 10%;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.page4 div{
+    width: 26%;
+    background-color: blueviolet;
+}
+.page4 div  img{
+    width: 100%;
+    background-color: #cbb9dc;
+}
