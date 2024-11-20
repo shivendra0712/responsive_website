@@ -38,7 +38,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        /* justify-content: center; */
         align-items: center;
 
     }
@@ -55,4 +54,47 @@
         font-weight: 420;
     }
 
+    .page2_heading {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .page2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page2 div {
+        width: 90%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    .page3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page3_image {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .page3_text {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .page3_text>h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .page3_box {
+border:5px solid #cc9405;
+        left: 10%;
+        width: 70%;
+        margin-top: 125%;
+    }
 }
