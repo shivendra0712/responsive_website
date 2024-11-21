@@ -45,6 +45,7 @@
     .page1_footer {
         display: flex;
         flex-direction: column;
+
         gap: 30px;
         margin-left: 20%;
     }
@@ -71,9 +72,11 @@
     }
 
     .page3 {
+        height: 1100px;
         display: flex;
         flex-direction: column;
         align-items: center;
+
     }
 
     .page3_image {
@@ -92,9 +95,62 @@
     }
 
     .page3_box {
-border:5px solid #cc9405;
+        border: 5px solid #cc9405;
         left: 10%;
         width: 70%;
         margin-top: 125%;
+    }
+
+    .page4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page4 div {
+        width: 90%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    .page4_text>h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .page4_text>button {
+        scale: 0.9;
+    }
+
+    .page5_heading {
+        font-size: 40px;
+        font-weight: 500;
+    }
+.page5 > i{
+     scale: 0.8;
+}
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .page5_box_text > h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .footer_div {
+        margin-bottom: 5%;
+    }
+
+    .footer_div>h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .footer_div>p {
+        font-size: 14px;
+        font-weight: 400;
     }
 }
